@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding-top: 100px;
+    background-color: #F2E0DC;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-12{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+.imag{
+    width: 100px;
+    height: 80px;
+}
+
+.hh{
+    text-align: center;
+}
