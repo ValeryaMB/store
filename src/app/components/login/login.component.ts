@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  nombre: any
+  nombre:any
   correo:any
 
   constructor(private router:Router) { }
@@ -15,14 +15,14 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
 
-  recebird(){
+  recebirdatos(){
 
   }
   navegar(){
     console.log(this.nombre)
     console.log(this.correo)
-    if(this.nombre='valeria'&&this.correo=='1234'){
-      this.router.navigate(['3'])
+    if (this.nombre='valeria'&&this.correo=='paulav@gmail.com') {      
+    this.router.navigate(['3'])
     }
     else{
       this.router.navigate(['2'])

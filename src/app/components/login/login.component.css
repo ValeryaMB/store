@@ -26,7 +26,7 @@ body{
 }
 
 .form-box input[type="text"],
-.form-box input[type="password"],
+.form-box input[type="text"],
 .form-box button[type="button"]{
     border: 0;
     background: none;

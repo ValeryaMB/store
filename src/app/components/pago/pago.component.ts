@@ -70,7 +70,7 @@ export class PagoComponent implements OnInit {
           }
 
           let l_dato=[l_img,l_descripcion,l_cantidad,partes[2],+partes[0]];
-          this.datos.push(l_dato);
+          //this.datos.push(l_dato);
 
           this.total=this.total + (+partes[0]);
 

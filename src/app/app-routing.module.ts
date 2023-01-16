@@ -7,7 +7,7 @@ import { PagoComponent } from './components/pago/pago.component';
 
 const routes: Routes = [
   {
-    path:'',component:LoginComponent
+    path:'',component: ComprasComponent
   },
   {
     path:'2',component:ErrorComponent
