@@ -1,7 +1,8 @@
 body, html{
     height: 100%;
 }
-body{
+.from-box{
+    height: 100%;
     margin: 0;
     padding: 0;
     background-color: #403330;
@@ -12,7 +13,7 @@ body{
     align-items: center;
 }
 
-.form-box{
+.from-box{
     width: 300px;
     padding: 40px;
     background-color: #A69794;
@@ -25,9 +26,9 @@ body{
     font-weight: 500;
 }
 
-.form-box input[type="text"],
-.form-box input[type="text"],
-.form-box button[type="button"]{
+.from-box input[type="email"],
+.from-box input[type="text"],
+.from-box button[type="button"]{
     border: 0;
     background: none;
     display: block;
