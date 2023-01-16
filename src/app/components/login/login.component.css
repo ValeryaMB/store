@@ -1,11 +1,13 @@
 body, html{
     height: 100%;
 }
-.from-box{
-    height: 100%;
+
+body{
+    width: 1895px;
+    height: 940px;
     margin: 0;
     padding: 0;
-    background-color: #403330;
+    background-color: #dbbaba;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -13,7 +15,7 @@ body, html{
     align-items: center;
 }
 
-.from-box{
+.form-box{
     width: 300px;
     padding: 40px;
     background-color: #A69794;
@@ -26,9 +28,9 @@ body, html{
     font-weight: 500;
 }
 
-.from-box input[type="email"],
-.from-box input[type="text"],
-.from-box button[type="button"]{
+.form-box input[type="email"],
+.form-box input[type="text"],
+.form-box button[type="button"]{
     border: 0;
     background: none;
     display: block;
@@ -43,19 +45,20 @@ body, html{
     transition: 0.25s;
 }
 
-.form-box input[type="text"]:focus,
-.form-box input[type="password"]:focus{
+
+.form-box input[type="email"]:focus,
+.form-box input[type="text"]:focus{
     width: 280px;
     border-color: #fff;
 }
 
-.form-box button[type="button"]{
+.form-box[type="button"]{
     border: 0;
     background: #F2E0DC;
     cursor: pointer;
     border: 2px solid #F2CCC9;
 }
 
-.form-box button[type="button"]:hover{
+.form-box[type="button"]:hover{
     background: none;
 }
